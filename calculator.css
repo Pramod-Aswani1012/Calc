@@ -1,0 +1,218 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* box-sizing: border-box; */
+    background-color: #d7c8c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.bgor{
+    background-color: orange;
+    
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    /* padding: 12px 12px; */
+    margin: 4px;
+    width: 3rem;
+    height: 3rem;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid orange;
+}
+.Mobile
+{
+    
+    text-align: center;
+    width: 0px auto;
+    background-color: #423f3f;
+    /* border: 2px solid green;/ */
+    border-radius: 8%;  
+    height: 28.5rem;
+    padding:1rem 0rem;
+}
+
+#display {
+    /* box-sizing: border-box; */
+border-radius: 18px;
+/* border: 2px solid red; */
+height: 72px;   
+/* color: white; */
+border: none;
+margin: 8px 12px;
+padding: 15px;
+background-color: #2e2e2e;
+text-align: right;
+/* float: right; */
+width: 15rem;
+color: white;
+font-size: 34px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* font-weight: 225; */
+height: 110px;
+}
+
+
+
+.btn
+{
+    /* flex-direction: ; */
+    border-radius: 50%;
+    background-color: grey;
+    /* border: 1px solid black; */
+    /* padding: 12px 12px; */
+    margin: 4px;
+    width: 3rem;
+    height: 3rem;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid grey;
+}
+.btn:hover
+{
+    color: black;
+    background-color: grey;
+    border: 1px solid white;
+}
+
+
+.esc:hover
+{
+    color: white;
+    background-color: rgb(247, 72, 72);
+    border: 1px solid white;
+}
+
+.equal:hover
+{
+    color: white;
+    background-color: greenyellow;
+    border: 1px solid white;
+}
+.operator
+{
+    background-color: orange;
+    color: white;
+
+}
+#history
+{
+    /* text-align: right; */
+    border: 2px solid red;
+    border-radius: 50%;
+    height: 20px;
+width: 20px;
+margin: 6px 10px;
+background-color: black;
+padding: -1px 33px;
+float: right;
+}
+#scientific {
+height: 18px;
+width: 23px;
+margin: 6px 10px;
+background-color: black;
+/* padding: -1px 33px; */
+/* float: right; */
+}
+head
+{
+    /* text-align: left; */
+    float: left;
+}
+
+.row1,.row2,.row3,.row4,.row5{
+    display: flex;
+}
+
+.allbuttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1 > .btn
+{
+    background-color: #cdc8c8;
+    color: black;
+    border: 1px solid white;
+}
+
+.zero{
+    width: 6.5rem;
+    border-radius: 5rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.zerozero{
+    display: none;
+}
+
+#prevres{
+    position: relative;
+    top: 33px;
+    /* right: 5rem; */
+    text-align: left;
+    width: 92%;
+    left: 1rem;
+    color: rgb(190, 190, 190);
+}
+.image-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    width: 15rem;
+  }
+  
+  img {
+    display: block;
+    width: 15rem;
+    height: 29.5rem;
+    border-radius: 10%;
+
+  }
+  
+  .content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #display-container {
+    position: absolute;
+    top: 50%; /* Adjust this value to vertically center the display inside the image */
+    left: 50%; /* Adjust this value to horizontally center the display inside the image */
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #display {
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.7); /* You can adjust the opacity here */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 200px; /* Adjust the width of the display */
+  }
+  
